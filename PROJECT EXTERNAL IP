@@ -1,0 +1,3 @@
+francis@francis-hp-pavilion:~/cd0157-Server-Deployment-and-Containerization$ kubectl get services simple-jwt-api -o wide
+NAME             TYPE           CLUSTER-IP      EXTERNAL-IP                                                               PORT(S)        AGE    SELECTOR
+simple-jwt-api   LoadBalancer   10.100.223.39   a09b75731b65a4b08ab9afacb705e368-1870324710.us-east-2.elb.amazonaws.com   80:31070/TCP   5m9s   app=simple-jwt-api
